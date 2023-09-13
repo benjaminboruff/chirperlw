@@ -9,21 +9,21 @@
             <div class="p-4 bg-white shadow sm:p-8 sm:rounded-lg">
                 <div class="max-w-xl">
                     {{-- @include('livewire.profile.partials.update-profile-information-form') --}}
-                    <Livewire:UpdateProfile />
+                    <livewire:profile.update-profile />
                 </div>
             </div>
 
             <div class="p-4 bg-white shadow sm:p-8 sm:rounded-lg">
                 <div class="max-w-xl">
                     {{-- @include('livewire.profile.partials.update-password-form') --}}
-                    <Livewire:UpdatePassword />
+                    <livewire:profile.update-password />
                 </div>
             </div>
 
             <div class="p-4 bg-white shadow sm:p-8 sm:rounded-lg">
                 <div class="max-w-xl">
                     {{-- @include('livewire.profile.partials.delete-user-form') --}}
-                    <Livewire:DeleteUser />
+                    <livewire:profile.delete-user />
                 </div>
             </div>
         </div>
